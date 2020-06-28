@@ -1,0 +1,25 @@
+//** footer scss is for all footer related classes and IDs **//
+.social {
+    position: fixed;
+    bottom: 30px;
+    left: 60px;
+    display: flex;
+    z-index: 900;
+    a {
+        display: inline-block;
+        margin-right: 12px;
+        color: #888888;
+        font-size: 14px;
+        font-weight: normal;
+        text-decoration: none;
+        &:hover {
+            color: #555555;
+            text-decoration: none;
+        }
+    }
+    svg {
+        fill: #888888;
+        height: 14px;
+        overflow: visible !important;
+    }
+}

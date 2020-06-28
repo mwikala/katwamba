@@ -1,0 +1,19 @@
+@import 'variables';
+@import 'fonts';
+@import 'standard';
+@import 'header';
+@import 'footer';
+
+@import 'slider';
+
+.subscribebox {
+    max-width: 500px;;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    p {
+        margin: 0 0 1.4em;
+    }
+    button {
+        margin-left: 20px;
+    }
+}
