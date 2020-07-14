@@ -1,4 +1,4 @@
-<p align="center"><a href="https://katwamba-mutale.vercel.app/" target="_blank"><img src="https://katwamba.vercel.app/assets/logo.png" width="200" align="center" /></a></p>
+<p align="center"><a href="https://katwamba-mutale.vercel.app/" target="_blank"><img src="./assets/logo.png" width="200" align="center" /></a></p>
 
 ### About
 This project is a photographer site template developed for a client. It's based on a template by [Format](https://format.com/), with some modification requested by the client.
