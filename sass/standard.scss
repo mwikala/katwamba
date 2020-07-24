@@ -7,7 +7,7 @@ body {
     padding: 0;
     min-height: 100%;
     height: auto;
-    background-color: #FFFFFD;
+    background-color: #FAFAFA;
     color: #555555;
     font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
     font-size: 14px;
@@ -191,4 +191,9 @@ form {
 // utility classes
 .img-responsive {
     max-width: 100%;
+}
+
+.text-link {
+    color: #888888; 
+    text-decoration: none;
 }
