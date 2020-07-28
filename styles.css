@@ -2,7 +2,6 @@
   font-family: 'Big Caslon FB Roman';
   src: url("/fonts/big-caslon.ttf"); }
 body {
-  background-color: #f4f4f4;
   margin: 0;
   padding: 0;
   min-height: 100%;
@@ -202,7 +201,7 @@ form {
   left: 0;
   bottom: 0;
   box-sizing: border-box;
-  background-color: #ddd;
+  background-color: #FAFAFA;
   opacity: 0;
   width: 100%;
   padding: 60px 60px;
