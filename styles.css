@@ -327,4 +327,20 @@ body.menu-active #line2 {
   text-decoration: none;
 }
 
+.slider-title {
+  position: absolute;
+  bottom:30px;
+  left: 10%;
+  transform: translateX(-10%);
+  font-size: 1.2rem;
+}
+
+@media only screen and (max-width: 790px) {
+  .slider-title {
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 50px;
+  }
+}
+
 /*# sourceMappingURL=styles.css.map */
