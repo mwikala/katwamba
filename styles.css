@@ -325,6 +325,11 @@ body.menu-active #line2 {
 .text-link {
   color: #888888; 
   text-decoration: none;
+  transition: color 0.4s ease-in-out;
+  -webkit-transition: color 0.4s ease-in-out;
+}
+.text-link:hover {
+  color: #000000;
 }
 
 .slider-title {
