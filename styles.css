@@ -343,4 +343,15 @@ body.menu-active #line2 {
   }
 }
 
+.content-block, .top-block {
+  opacity: 0;
+}
+
+.content-block, .top-block {
+  animation: menufadein;
+  animation-delay: 0.7s;
+  animation-duration: 0.7s;
+  animation-fill-mode: forwards;
+}
+
 /*# sourceMappingURL=styles.css.map */
