@@ -343,8 +343,7 @@ body.menu-active #line2 {
 
 .pagination-link {
   text-decoration: none; 
-  color: #000 !important;
-  font-weight: normal !important;
+  color: #000;
 }
 
 .pagination-link img {
@@ -358,7 +357,6 @@ body.menu-active #line2 {
     left: 50%;
     transform: translateX(-50%);
     bottom: 50px;
-    text-align:center;
   }
 }
 
