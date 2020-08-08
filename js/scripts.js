@@ -33,6 +33,23 @@ function initialiseSlider() {
         }
     });
 
+    $('.middle').on('swipeleft', function(e) {
+        if(slidePos !== slides.length - 1) {
+            slidePos++;
+            $(slides[slidePos]).removeClass("hide");
+            updateSliderCounter(slidePos);
+        }
+    });
+    
+    $('.middle').on('swiperight', function(e) {
+        if(slidePos !== 0) {
+            $(slides[slidePos]).addClass("hide");
+            slidePos--;
+            updateSliderCounter(slidePos);
+        }
+        
+    });
+
     $('#slideNext').click(function(){
         if(slidePos !== slides.length - 1) {
             slidePos++;
