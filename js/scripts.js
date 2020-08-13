@@ -56,7 +56,17 @@ function initialiseSlider() {
         gestureZone[0].addEventListener('touchend', function (event) {
             touchendX = event.changedTouches[0].screenX;
             touchendY = event.changedTouches[0].screenY;
-            handleGesture();
+            
+            let ratioX = Math.abs((touchendX - touchstartX) / (touchendY - touchstartY));
+            let ratioY = Math.abs((touchendY - touchstartY) / (touchendX - touchstartX));
+
+            let absDiff = Math.abs(ratioX > ratioY ? (touchendX - touchstartX) : (touchendY - touchstartY));
+
+            // Ignore small swipes
+            if (absDiff >= 50) {
+                handleGesture();
+            }
+
         }, false);
 
         function handleGesture() {
