@@ -6,10 +6,10 @@ function updateSliderCounter(slidePos) {
     $(".sliderPos").text(slidePos + 1);
 }
 
-function initialiseSlider(initSlider) {
+function initialiseSlider() {
 
     // first we get the slider
-    var slider = $('.slider').html(initSlider.html());
+    var slider = $('.slider').first();
 
     // insert controls to allow user to navigate between slides
     if (!isMobile()) {
@@ -97,13 +97,7 @@ $(function () {
         $('body').toggleClass('menu-active');
     });
 
-    // window on load waits for images to be loaded as well, but must be inside jquery ready to allow for query to work;
-    $(window).on("load", function () {
-        // get slider
-        var initSlider = $('.slider').first();
-        // initialise slider    
-        initialiseSlider(initSlider);
-    });
+    initialiseSlider();
 
 });
 
